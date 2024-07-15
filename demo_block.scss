@@ -1,9 +1,8 @@
-body {
-    padding: 40px;
-}
+
 
 .demo_section {
     height: 527px;
+    padding: 40px;
 
     &__inner {
         display: flex;
@@ -46,6 +45,8 @@ body {
 
         background-color: #244c98;
         color: white;
+
+        cursor: pointer;
 
         & > p {
             margin: 0;

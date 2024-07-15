@@ -1,9 +1,6 @@
-body {
-  padding: 40px;
-}
-
 .demo_section {
   height: 527px;
+  padding: 40px;
 }
 .demo_section__inner {
   display: flex;
@@ -40,6 +37,7 @@ body {
   padding: 0 12px 0 24px;
   background-color: #244c98;
   color: white;
+  cursor: pointer;
   border-radius: 60px;
 }
 .demo_section .article__button > p {
