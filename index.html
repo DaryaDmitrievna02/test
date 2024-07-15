@@ -4,32 +4,32 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-
+    <title>Demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-   
-
-
     <section class="demo_section">
       <div class="demo_section__inner">
         <div class="demo_section__article">
           <div class="article__inner">
             <h2>Демо-версия</h2>
             <p>
-              За 18 лет деятельности было реализовано более 500 крупных, а так же,
-              не менее 2500 средних и малых проектов. Используя знания и
+              За 18 лет деятельности было реализовано более 500 крупных, а так
+              же, не менее 2500 средних и малых проектов. Используя знания и
               накопленный опыт мы можем предложить
             </p>
             <div class="article__button trigger">
               <p>Попробовать бесплатно</p>
               <div>
-               
-                <img src="./arrow-up-right.svg" alt="" srcset="">
+                <img src="./arrow-up-right.svg" alt="" srcset="" />
               </div>
             </div>
           </div>
-       
         </div>
         <div class="demo_section__photo">
           <img src="../photo.png" alt="" />
@@ -37,41 +37,41 @@
       </div>
     </section>
 
-
-
     <div class="modalBackground">
       <div class="modalActive">
         <div class="modal__inner">
           <div class="modalClose">
             <img src="x.svg" />
-        </div>
-        <div class="login">
-          <h2>Войти в систему</h2>
-          <form class="login-form">
-            <div class="login__input">
-              <input type="text" placeholder="Email/Телефон"/>
-              <input type="password" placeholder="Пароль"/> 
-            </div>
-          
-        
-            <p class="message"><a href="#">Восстановить</a></p>
+          </div>
+          <div class="login">
+            <h2>Войти в систему</h2>
+            <form class="login-form">
+              <div class="login__input">
+                <input type="text" placeholder="Email/Телефон" />
+                <input type="password" placeholder="Пароль" />
+              </div>
 
-            <div class="login__button">
-              <button>Войти</button>
-              <button>Зарегестрироваться</button>
-            </div>
-        
-          </form>
+              <div class="checkbox-container">
+                <input type="checkbox" name="" id="checkbox" /><label
+                  class="label-form"
+                  for="checkbox"
+                  >Запомнить пароль</label
+                >
+              </div>
 
-        </div>
-   
+              <p class="message"><a href="#">Восстановить</a></p>
 
-        <div class="modalWindow"></div>
+              <div class="login__button">
+                <button>Войти</button>
+                <button>Зарегестрироваться</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="modalWindow"></div>
         </div>
-     
       </div>
-  </div>
-
+    </div>
 
     <script type="module" src="/main.js"></script>
   </body>

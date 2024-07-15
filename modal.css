@@ -11,11 +11,11 @@
 
 .modalActive {
   position: absolute;
-  width: 500px;
-  height: 575px;
-  top: calc(50% - 287px);
-  left: calc(50% - 250px);
-  background-color: #F0F4FC;
+  width: 476px;
+  height: 551px;
+  top: calc(50% - 299px);
+  left: calc(50% - 262px);
+  background-color: #f0f4fc;
   cursor: default;
   padding: 24px;
 }
@@ -50,10 +50,89 @@
 .login {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
   height: 100%;
 }
 .login__input {
   display: flex;
   flex-direction: column;
+}
+.login__input > h2 {
+  color: #323232;
+  font-size: 24px;
+}
+.login__input > input {
+  background-color: #d7e2f6;
+  border-radius: 10px;
+  padding: 24px;
+  border: transparent;
+  font-size: 18px;
+}
+.login__input > input::-moz-placeholder {
+  color: #244c98;
+}
+.login__input > input::placeholder {
+  color: #244c98;
+}
+.login__input > input:last-child {
+  margin-top: 5px;
+}
+.login .message {
+  margin: 30px 0;
+}
+.login .message > a {
+  color: #244c98;
+  text-decoration: none;
+  font-size: 20px;
+}
+.login__button {
+  display: flex;
+  flex-direction: column;
+}
+.login__button > button {
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 12px 18px;
+  background-color: #244c98;
+  color: white;
+  font-size: 18px;
+  border: none;
+  height: 65px;
+}
+.login__button > button:last-child {
+  background-color: transparent;
+  border: 1px solid #244c98;
+  color: #244c98;
+  margin-top: 5px;
+}
+.login .checkbox-container {
+  margin: 35px 0;
+}
+.login .label-form {
+  cursor: pointer;
+  padding-left: 5px;
+  font-size: 18px;
+  color: #323232;
+}
+
+@media screen and (max-width: 768px) {
+  .modalActive {
+    position: absolute;
+    width: 320px;
+    height: 511px;
+    top: calc(50% - 259px);
+    left: calc(50% - 180px);
+    background-color: #f0f4fc;
+    cursor: default;
+    padding: 20px;
+  }
+  .login > h2 {
+    font-size: 20px;
+  }
+  .login > p {
+    font-size: 18px;
+  }
+  .login > a {
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=modal.css.map */
