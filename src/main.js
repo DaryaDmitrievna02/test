@@ -1,5 +1,5 @@
-import './demo_block.scss';
-import './modal.scss';
+import './demo_block.css';
+import './modal.css';
 import '../style.css'
 
 
