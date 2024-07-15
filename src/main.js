@@ -1,6 +1,7 @@
-import './style.css'
-import './demo_block.scss'
-import './modal.scss'
+import './demo_block.scss';
+import './modal.scss';
+import '../style.css'
+
 
 
 const modalTrigger = document.getElementsByClassName("trigger")[0];
